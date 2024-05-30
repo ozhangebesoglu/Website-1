@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 8%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./resim/bg.png);
+    background-position: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    font-size: 25px;
+    
+    
+}
+
+body{
+    background:  #f1f1f1;
+}
+
+
+
+.container .p{
+    font-size: 20px;
+}
+
+.sosyal-medya{
+    position: absolute;
+    top: 73%;
+    left: 10%;
+    
+}
+
+.sosyal-medya div{
+    display: inline;
+}
+
+.sosyal-medya div a{
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.navbar{
+    height: 12%;  
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav ul{
+list-style: none;
+display: flex;
+column-gap: 20px;
+transform: translateY(55px);
+}
+
+nav ul li{
+transform: translateX(-1000px);
+
+
+}
+
+nav ul li a{
+color: #fff;
+text-decoration: none;
+transition: ease 0.5s;
+}
+
+nav ul li a:hover{
+color: #4b4b4b;
+}
+  
